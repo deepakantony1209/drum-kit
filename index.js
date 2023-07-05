@@ -16,37 +16,37 @@ document.addEventListener("keydown",function(event){
 function playSound(input){
 switch(input){
     case 'w':
-        var tom = new Audio("drum-kit/sounds/tom-1.mp3");
+        var tom = new Audio("tom-1.mp3");
         tom.play(); 
         break;
     
     case 'a':
-        var tom = new Audio("drum-kit/sounds/tom-2.mp3");
+        var tom = new Audio("tom-2.mp3");
         tom.play(); 
         break;
     
     case 's':
-        var tom = new Audio("drum-kit/sounds/tom-3.mp3");
+        var tom = new Audio("tom-3.mp3");
         tom.play(); 
         break;
     
     case 'd':
-        var tom = new Audio("drum-kit/sounds/tom-4.mp3");
+        var tom = new Audio("tom-4.mp3");
         tom.play(); 
         break;
     
     case 'j':
-        var tom = new Audio("drum-kit/sounds/snare.mp3");
+        var tom = new Audio("snare.mp3");
         tom.play(); 
         break;
     
     case 'k':
-        var tom = new Audio("drum-kit/sounds/crash.mp3");
+        var tom = new Audio("crash.mp3");
         tom.play(); 
         break;
     
     case 'l':
-        var tom = new Audio("drum-kit/sounds/kick-bass.mp3");
+        var tom = new Audio("kick-bass.mp3");
         tom.play(); 
         break;
     
